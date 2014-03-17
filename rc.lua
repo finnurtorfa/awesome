@@ -50,10 +50,12 @@ function run_once(cmd)
 end
 
 run_once("setxkbmap -model pc104 -layout is,dk -option grp:alt_shift_toggle")
+run_once("xset +fp /usr/share/fonts/local")
 run_once("skype")
 run_once("urxvtd")
 run_once("unclutter -idle 10")
 run_once("compton")
+run_once("CopyAgent")
 
 -- }}}
 
